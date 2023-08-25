@@ -23,7 +23,7 @@
 
                     </ul>
                 </nav>
-                <button class="header__search">
+                <button class="header__search btn-reset">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <rect width="7.56126" height="1.89031" transform="matrix(0.713342 0.700816 -0.713342 0.700816 18.6064 17.3762)" fill="black"/>
                         <path d="M20.9303 10.7726C20.9303 16.1533 16.4855 20.5452 10.9652 20.5452C5.44478 20.5452 1 16.1533 1 10.7726C1 5.39198 5.44478 1 10.9652 1C16.4855 1 20.9303 5.39198 20.9303 10.7726Z" stroke="black" stroke-width="2"/>
@@ -33,5 +33,26 @@
             </div>
         </div>
     </header>
+    <main class="main container">
+        <section class="hero">
+            <div class="container">
+                <div class="hero__swiper">
+                    <picture>
+                        <source media="(min-width: 1440px )" srcset="img/hero/hero.jpg" >
+                        <source media="(max-width: 500px )" srcset="img/hero/hero320.jpg" >
+                        <source media="(max-width: 1440px )" srcset="img/hero/hero1024.jpg" >
+                        <img src="img/hero/hero.jpg" alt="балконы" class="hero__img">
+                    
+                    </picture>
+                    <div class="hero__content">
+                        <h2 class="hero__title">Проектные решения любой сложности</h2>
+                        
+                        <p class="hero__text">Есть над чем задуматься: базовые сценарии поведения пользователей и по сей день остаются уделом проектантов</p>
+                        <button class="hero__btn site-button" >Заказать расчет</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
